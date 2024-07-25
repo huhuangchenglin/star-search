@@ -10,6 +10,14 @@ if ($set['autokeywords'] == 1) {
 <!DOCTYPE html>
 <html lang="zh-CN">
  <head> 
+ <style>
+        /* 设置整个页面的背景色为黑色 */
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
   <meta charset="UTF-8" /> 
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /> 
   <meta http-equiv="Cache-Control" content="no-siteapp" /> 
@@ -28,13 +36,13 @@ if ($set['autokeywords'] == 1) {
   <title>星芒起始页 - Star.Search</title> 
   <meta name="keywords" content="星芒导航,星芒搜索,星芒搜索导航,星芒,星芒起始页,起始页,搜索导航,首页,浏览器首页,胡黄成霖,百度,谷歌,谷歌搜索,必应,Star-Search,快捷导航,浏览器,星芒浏览器">
   <meta name="description" content="最简洁的搜索导航，给你简单舒爽的搜索体验。">
-  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" /> 
-  <link href="css/style.css" rel="stylesheet" /> 
-  <link href="css/sousuo.css" rel="stylesheet" /> 
-  <link rel="stylesheet" href="css/font_1230786_gdvd1b4wlz.css" /> 
-  <link rel="stylesheet" href="css/font_1572019_yrk10qvz.css" /> 
-  <script src="js/jquery.min.js"></script> 
-  <script src="js/xd.js"></script> 
+  <link rel="shortcut icon" href="https://logo.star-search.cn/logo_100.png" type="image/x-icon" /> 
+  <link href="https://starsearch.rth10.com/www.star-search.cn/css/style.css" rel="stylesheet" /> 
+  <link href="https://starsearch.rth10.com/www.star-search.cn/css/sousuo.css" rel="stylesheet" /> 
+  <link rel="stylesheet" href="https://starsearch.rth10.com/www.star-search.cn/css/font_1230786_gdvd1b4wlz.css" /> 
+  <link rel="stylesheet" href="https://starsearch.rth10.com/www.star-search.cn/css/font_1572019_yrk10qvz.css" /> 
+  <script src="https://starsearch.rth10.com/www.star-search.cn/js/jquery.min.js"></script> 
+  <script src="https://starsearch.rth10.com/www.star-search.cn/js/xd.js"></script> 
   <script>
 var _hmt = _hmt || [];
 (function() {
@@ -109,7 +117,7 @@ var _hmt = _hmt || [];
          <li><a rel="nofollow" href="https://blog.star-search.cn/?post=62" target="_blank"><i class="" style="color: #4bbdff;"></i>背景图片下载</a></li>
 <!--         <li><a rel="nofollow" href="https://upload.star-search.cn/" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>文件上传</a></li>   -->
          <li><a rel="nofollow" href="https://jq.qq.com/?_wv=1027&k=A6wxje1W" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>官方QQ群</a></li>
-    <li class="title"></i>当前版本号：20240403</li> 
+    <li class="title"></i>当前版本号：20240725</li> 
 <!--    <li class="title"></i>友情链接</li>
         <li><a rel="nofollow" href="https://start.geeklab.work" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>轻云起始页</a></li>     -->
    </ul> 
@@ -168,9 +176,9 @@ var _hmt = _hmt || [];
     <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off" />
    </div>
   </div> 
-  <script type="text/javascript" src="js/yyss.js"></script>
-  <script type="text/javascript" src="js/sousuo.js"></script> 
-  <script type="text/javascript" src="js/lianxiang.js"></script> 
+  <script type="text/javascript" src="https://starsearch.rth10.com/www.star-search.cn/js/yyss.js"></script>
+  <script type="text/javascript" src="https://starsearch.rth10.com/www.star-search.cn/js/sousuo.js"></script> 
+  <script type="text/javascript" src="https://starsearch.rth10.com/www.star-search.cn/js/lianxiang.js"></script> 
   <div class="bgo"></div> 
  </body>
  <!--天气插件开始-->
