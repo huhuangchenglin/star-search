@@ -1,12 +1,3 @@
-<?php
- require "common.php";
-if ($set['autokeywords'] == 1) {
-	$word = get_word();
-} else {
-	$word = "";//禁止搜索词汇
-}
- 
-?> 
 <!DOCTYPE html>
 <html lang="zh-CN">
  <head> 
@@ -99,7 +90,7 @@ var _hmt = _hmt || [];
         <li><a rel="nofollow" href="https://www.aliyundrive.com/sign/in" target="_blank"><i class="iconfont icon-cloud-download" style="color: #4bbdff;"></i>阿里云盘</a></li>
         <li><a rel="nofollow" href="https://vocalremover.org/ch/" target="_blank"><i class="iconfont icon-video" style="color: #4bbdff;"></i>音频编辑</a></li> 
     <li class="title"><i class="iconfont icon-kongzhitai"></i> 开发</li> 
-        <li><a rel="nofollow" href="https://www.githubs.cn/" target="_blank"><i class="iconfont icon-github"></i>Github</a></li> 
+        <li><a rel="nofollow" href="https://github.com/" target="_blank"><i class="iconfont icon-github"></i>Github</a></li> 
         <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank"><i class="iconfont icon-windows" style="color: #48c;"></i>MSDN</a></li> 
         <li><a rel="nofollow" href="https://ping.pe" target="_blank"><i class="iconfont icon-wangluo1" style="color:#1d0;"></i>Ping.pe</a></li> 
         <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><i class="iconfont icon-pingup" style="color:#2361ad;"></i>站长Ping</a></li>
@@ -110,14 +101,13 @@ var _hmt = _hmt || [];
         <li><a rel="nofollow" href="https://xinghuo.xfyun.cn/" target="_blank"><i class="" style="color: #4bbdff;"></i>星火大模型</a></li>
     <li class="title"></i>关于我们</li> 
          <li><a rel="nofollow" href="https://about.star-search.cn/" target="_blank"><i class="" style="color: #4bbdff;"></i>关于我</a></li> 
-         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=24" target="_blank"><i class="" style="color: #4bbdff;"></i>捐助我</a></li> 
-         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=29" target="_blank"><i class="" style="color: #4bbdff;"></i>下载客户端</a></li>
-         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=77" target="_blank"><i class="" style="color: #4bbdff;"></i>漏洞意见反馈</a></li>
-         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=78" target="_blank"><i class="" style="color: #4bbdff;"></i>更新日志</a></li>
-         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=62" target="_blank"><i class="" style="color: #4bbdff;"></i>背景图片下载</a></li>
+         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=3" target="_blank"><i class="" style="color: #4bbdff;"></i>捐助我</a></li> 
+         <li><a rel="nofollow" href="https://app.star-search.cn/" target="_blank"><i class="" style="color: #4bbdff;"></i>下载客户端</a></li>
+         <li><a rel="nofollow" href="" target="_blank"><i class="" style="color: #4bbdff;"></i>漏洞意见反馈</a></li>
+         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=4" target="_blank"><i class="" style="color: #4bbdff;"></i>背景图片下载</a></li>
 <!--         <li><a rel="nofollow" href="https://upload.star-search.cn/" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>文件上传</a></li>   -->
          <li><a rel="nofollow" href="https://jq.qq.com/?_wv=1027&k=A6wxje1W" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>官方QQ群</a></li>
-    <li class="title"></i>当前版本号：20240725</li> 
+    <li class="title"></i>当前版本号：20241009</li> 
 <!--    <li class="title"></i>友情链接</li>
         <li><a rel="nofollow" href="https://start.geeklab.work" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>轻云起始页</a></li>     -->
    </ul> 
@@ -186,10 +176,14 @@ var _hmt = _hmt || [];
 
 			<!--天气插件结束-->
 <div style="position: fixed;width: 100%;height: 30px;line-height: 30px;bottom: 0;left: 0;text-align: center;">
-			<a style="color: #fff;" href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2021021854号-2</a>
-			<a  style="color: #fff;margin-left: 20px;cursor: pointer;" onclick="jiu()">切换旧版</a>
+            <a><?php echo $currentYear; ?></a>
+			<a style="color: #fff;" href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024095899号-1</a>
+			<img class="logos" src="https://logo.star-search.cn/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png"  width="15" height="15" >
+			<a style="color: #fff;" href="https://beian.mps.gov.cn/#/query/webSearch?code=51019002007314" rel="noreferrer" target="_blank"> 川公网安备51019002007314</a>
+			<a style="color: #fff;margin-left: 20px;cursor: pointer;" onclick="jiu()">切换旧版</a>
 			</div>
 </html>
+
 
 <script>
 	function jiu(){
@@ -235,3 +229,6 @@ var _hmt = _hmt || [];
 	
 	
 </script>
+
+
+
