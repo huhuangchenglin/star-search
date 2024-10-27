@@ -103,11 +103,11 @@ var _hmt = _hmt || [];
          <li><a rel="nofollow" href="https://about.star-search.cn/" target="_blank"><i class="" style="color: #4bbdff;"></i>关于我</a></li> 
          <li><a rel="nofollow" href="https://blog.star-search.cn/?post=3" target="_blank"><i class="" style="color: #4bbdff;"></i>捐助我</a></li> 
          <li><a rel="nofollow" href="https://app.star-search.cn/" target="_blank"><i class="" style="color: #4bbdff;"></i>下载客户端</a></li>
-         <li><a rel="nofollow" href="" target="_blank"><i class="" style="color: #4bbdff;"></i>漏洞意见反馈</a></li>
+         <li><a rel="nofollow" href="https://blog.star-search.cn/?post=8" target="_blank"><i class="" style="color: #4bbdff;"></i>漏洞意见反馈</a></li>
          <li><a rel="nofollow" href="https://blog.star-search.cn/?post=4" target="_blank"><i class="" style="color: #4bbdff;"></i>背景图片下载</a></li>
 <!--         <li><a rel="nofollow" href="https://upload.star-search.cn/" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>文件上传</a></li>   -->
          <li><a rel="nofollow" href="https://jq.qq.com/?_wv=1027&k=A6wxje1W" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>官方QQ群</a></li>
-    <li class="title"></i>当前版本号：20241009</li> 
+    <li class="title"></i>当前版本号：20241027</li> 
 <!--    <li class="title"></i>友情链接</li>
         <li><a rel="nofollow" href="https://start.geeklab.work" target="_blank"><i class="iconfont icon-cloud-download-alt" style="color: #4bbdff;"></i>轻云起始页</a></li>     -->
    </ul> 
